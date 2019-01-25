@@ -9,7 +9,7 @@
   
 * CLI play
 
-![](http://g.recordit.co/4DZwtDMVVH.gif)
+  - ![](http://g.recordit.co/4DZwtDMVVH.gif)
 
 ## Work in progess
   - /web_client -> Running Phoenix
