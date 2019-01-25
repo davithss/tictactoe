@@ -6,6 +6,10 @@
 
   - /tictac -> Game engine
   - /client -> Command-line interface game play
+  
+* CLI play
+
+![](http://g.recordit.co/4DZwtDMVVH.gif)
 
 ## Work in progess
   - /web_client -> Running Phoenix
