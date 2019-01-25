@@ -12,7 +12,8 @@
   - ![](http://g.recordit.co/4DZwtDMVVH.gif)
 
 ## Work in progess
-  - /web_client -> Running Phoenix
+  - /client nodes connection
 
 ## Next Step
+  - /web_client -> Running Phoenix
   - /socket_client -> Running Web sockets
