@@ -2,7 +2,7 @@
 
 ## Information
 
-* We have separated apps for this game, they are:
+* I have separated apps for this game, they are:
 
   - /tictac -> Game engine
   - /client -> Command-line interface game play
