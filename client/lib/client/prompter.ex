@@ -5,7 +5,7 @@ defmodule Client.Prompter do
     Interact.start(&Prompter.handle/2)
   end
 
-  def handle(%State{status: initializing}, :get_player) do
+  def handle(%State{status: :initializing}, :get_player) do
     IO.gets("What's gonna be your player x or o ?")
       |> String.trim
       |> String.to_atom
