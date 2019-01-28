@@ -23,7 +23,7 @@
   ```
     -> iex --sname client1 -S mix
     -> Client.play
-   after that command check it out the Observer and you gonna se the PID of the process
+   after that command check it out the Observer and you gonna see the PID of the process
   ```
    
 ## Work in progess
