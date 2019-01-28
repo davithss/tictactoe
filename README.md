@@ -13,7 +13,7 @@
 
 * CLI play using Genserver
 
-  - Open a terminal on Tictac directory and run it:
+  - Open a terminal on Tictac directory and run the server:
   ```
     iex --sname tictac -S mix
     # to see the Supervisor and their proccess you must go on Application tab
