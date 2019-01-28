@@ -1,8 +1,9 @@
 defmodule Client.Interact do
   alias Tictac.Game
-  alias Client.{Interact, State}
+  alias Client.State
 
   def start(ui) do
+    new_game()
     with {:ok, game} <- State.new(ui),
          player      <- ui.(game, :get_player),
          {:ok, game} <- State.event(game, {:choose_player, player}),
@@ -23,5 +24,18 @@ defmodule Client.Interact do
 
   def handle(%{status: :game_over} = game) do
     game.ui.(game, nil)
+  end
+
+  def new_game() do
+    Node.connect(:"tictac@#{get_hostname}")
+    :rpc.call(:"tictac@#{get_hostname}",
+      Tictac,
+      :new_game,
+      [])
+  end
+
+  def get_hostname() do
+    {:ok, hostname} = :inet.gethostname
+    hostname
   end
 end
