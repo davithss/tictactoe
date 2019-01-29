@@ -9,7 +9,7 @@
   
 * CLI play
 
-  - ![](http://g.recordit.co/4DZwtDMVVH.gif)
+  - ![](http://g.recordit.co/xdW1JuhPka.gif)
 
 * CLI play using Genserver
 
@@ -27,8 +27,7 @@
   ```
    
 ## Work in progess
-  - /client prompter tests
+  - /web_client -> Running Phoenix
 
 ## Next Step
-  - /web_client -> Running Phoenix
   - /socket_client -> Running Web sockets
