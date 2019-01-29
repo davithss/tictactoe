@@ -21,7 +21,8 @@ defmodule Client.MixProject do
 
   defp deps do
     [
-      { :tictac, path: "../tictac" }
+      { :tictac, path: "../tictac" },
+      { :mimic, "~> 0.2", only: :test },
     ]
   end
 end
